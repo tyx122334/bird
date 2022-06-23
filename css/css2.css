@@ -1,0 +1,172 @@
+body{
+    background-color: #fac784;
+    margin: 0;
+}
+div.inner{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;/*盒模型,凝胶布局*/
+}
+
+header{
+    height: 100px;
+    background-image: url(../images/2.jpg);
+}
+
+nav{
+    height: 41px;
+    background-image:  url(../images/1.png);
+}
+nav li.nav_1{
+    list-style: none;
+    height: 41px;
+    width: 255px;
+    float:left;
+    margin-left: 265px;
+}
+nav li.nav_2{
+    list-style: none;
+    height: 41px;
+    width: 280px;
+    float:left;
+}
+nav li.nav_3{
+    list-style: none;
+    height: 41px;
+    width: 285px;
+    float:left;
+}
+nav li.nav_4{
+    list-style: none;
+    height: 41px;
+    width: 300px;
+    float:left;/*利用float布局实现超链接的四部分字横向排列*/
+}
+.inner a {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    display: flex;/*弹性布局*/
+    justify-content: space-between;
+    width:100%;
+    margin: auto;
+}
+.style{
+    list-style: none;
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #ccc;
+    margin: 50px;
+    margin-left: 10px;
+}
+ul li{
+    list-style: none;
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #ccc;
+    margin: 50px;
+    margin-right: 90px;
+}
+ul li a{
+    display: flex;/*弹性布局*/
+    width: 100%;
+    height: 140px;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #ff9b19;
+    justify-content: center;
+}
+ul li img{
+    width: 64px;
+    height: 64px;
+}
+ul li span{
+    display: block;/*将元素显示为块级元素*/
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+#tableContainer{
+    display: table;/*表格布局*/
+    border-spacing:10px;  
+    width: 100%; 
+}
+#tableRow{
+    display: table-row;
+}
+.running{
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+    text-align:center;
+    color: chocolate;
+}
+.tennis{
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+    text-align:center;
+    color: chocolate;
+}
+.movies{
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+    text-align:center;
+    color: chocolate;
+}
+.music{
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+    text-align:center;
+    color: chocolate;
+}
+.footer{
+    width: 100%;
+    position: absolute;/*相对布局*/
+    bottom: 0;
+}
+.website-info{
+    overflow: hidden;
+    background-color: #e7e7e7;
+    padding-left: 10%;
+}
+.website-info h5{
+    padding-bottom: 3px;
+    color: #424242;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(232, 225, 225);
+}
+.about, .response, .contact{
+    float: left;/*float布局*/
+    margin-right: 10%;
+    margin-left: 7% ;
+    font-size: 0.75em;
+}
+.about p, .response p, .contact p{
+    margin-bottom: 0.2em;
+}
+.welcome{
+    text-align: center;
+    padding: 0.5em 0;
+    background: #f09307;
+    color: #e7e7e7;
+    bottom: 10em;
+}

@@ -1,0 +1,126 @@
+body{
+    background-color: #fac784;
+    margin: 0;
+}
+
+div.inner{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;/*盒模型,凝胶布局*/
+}
+
+header{
+    height: 100px;
+    background-image: url(../images/2.jpg);
+}
+
+nav{
+    height: 41px;
+    background-image:  url(../images/1.png);
+}
+nav li.nav_1{
+    list-style: none;
+    height: 41px;
+    width: 255px;
+    float:left;
+    margin-left: 265px;
+}
+nav li.nav_2{
+    list-style: none;
+    height: 41px;
+    width: 280px;
+    float:left;
+}
+nav li.nav_3{
+    list-style: none;
+    height: 41px;
+    width: 285px;
+    float:left;
+}
+nav li.nav_4{
+    list-style: none;
+    height: 41px;
+    width: 300px;
+    float:left;/*利用float布局实现超链接的四部分字横向排列*/
+}
+h1{
+    font: italic;
+    text-shadow: 0 0 40px white;
+    color:rgb(249, 196, 149);
+    background: linear-gradient(to right, red, rgba(255, 191, 0, 0.896));
+    -webkit-background-clip: text;
+    background-clip: text;/*实现渐变效果*/
+    color: transparent;
+}
+.elixir{
+    border: thin solid brown;
+    width: 100px;
+    color: rgb(193, 96, 27);
+    position: relative;/*最左边标题部分采用相对布局*/
+    margin-left:150px;
+    height: 575px;
+    padding-top: 100px;
+    background-color: #f59e1c;
+   font-style: italic;
+   font-size: 20px;
+}
+.elixir1{
+    border: thin solid brown;
+    width: 330px;
+    color: rgb(204, 121, 62);
+    float:right;/*右边边栏区表单部分用float布局使之浮动在页面最右边*/
+    background-image: url(../images/980.jfif);
+}
+h3{
+    font-size: 25px;
+}
+.table{
+    position: absolute;/*表格部分采用绝对布局以实现水平、垂直居中的效果*/
+    top: 230px;
+    left: 370px;
+    font-size: 8px;
+    color:brown;
+    border-collapse:collapse;
+    background-color: rgba(252, 244, 230, 0.868);
+}
+#image{
+    background-image:url(../images/41010320020406010X.jpg);
+}
+a {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    position: absolute;/*页脚部分使用相对布局*/
+    bottom: 0;
+}
+.website-info{
+    overflow: hidden;
+    background-color: #e7e7e7;
+    padding-left: 10%;
+}
+.website-info h5{
+    padding-bottom: 3px;
+    color: #424242;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(232, 225, 225);
+}
+.about, .response, .contact{
+    float: left;/*float布局*/
+    margin-right: 10%;
+    margin-left: 7% ;
+    font-size: 0.75em;
+}
+.about p, .response p, .contact p{
+    margin-bottom: 0.2em;
+} 
+.welcome{
+    text-align: center;
+    padding: 0.5em 0;
+    background: #f09307;
+    color: #e7e7e7;
+    bottom: 10em;
+}

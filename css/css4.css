@@ -1,0 +1,119 @@
+body{
+    background-color: #fac784;
+    margin: 0;
+}
+div.inner{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;/*盒模型,凝胶布局*/
+}
+
+header{
+    height: 100px;
+    background-image: url(../images/2.jpg);
+}
+
+nav{
+    height: 41px;
+    background-image:  url(../images/1.png);
+}
+nav li.nav_1{
+    list-style: none;
+    height: 41px;
+    width: 255px;
+    float:left;
+    margin-left: 265px;
+}
+nav li.nav_2{
+    list-style: none;
+    height: 41px;
+    width: 280px;
+    float:left;
+}
+nav li.nav_3{
+    list-style: none;
+    height: 41px;
+    width: 285px;
+    float:left;
+}
+nav li.nav_4{
+    list-style: none;
+    height: 41px;
+    width: 300px;
+    float:left;/*利用float布局实现超链接的四部分字横向排列*/
+}
+.inner a {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+.life{
+    font-style: italic;
+    background: linear-gradient(to right, rgba(236, 119, 201, 0.374), rgba(134, 6, 184, 0.932));
+    -webkit-background-clip: text;
+    background-clip: text;/*实现渐变效果*/
+    color: transparent;
+}
+.allcontent{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;/*凝胶布局*/
+    text-align: center;
+    background-image: url(../images/R-C.png);
+    color: rgb(118, 35, 35);
+}
+.style{
+    background-image: url(../images/R-C.jfif);
+    height: 100px;
+}
+.style1{
+    background-image: url(../images/980\ \(1\).jfif);
+    height: 100px;
+}
+.background{
+    background-color: rgba(249, 232, 182, 0.767);
+}
+h2{
+    color: rgba(250, 153, 7, 0.767);
+    font-size: 35px;
+}
+h3{
+    color: rgba(178, 132, 7, 0.767);
+}
+.picture{
+    background-image: url(../images/背景图.jpg);
+}
+.footer{
+    width: 100%;
+    position: absolute;/*相对布局*/
+    bottom: 0;
+}
+.website-info{
+    overflow: hidden;
+    background-color: #e7e7e7;
+    padding-left: 10%;
+}
+.website-info h5{
+    padding-bottom: 3px;
+    color: #424242;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(232, 225, 225);
+}
+.about, .response, .contact{
+    float: left;/*float布局*/
+    margin-right: 10%;
+    margin-left: 7% ;
+    font-size: 0.75em;
+}
+.about p, .response p, .contact p{
+    margin-bottom: 0.2em;
+}
+ 
+.welcome{
+    text-align: center;
+    padding: 0.5em 0;
+    background: #f09307;
+    color: #e7e7e7;
+    bottom: 10em;
+}
